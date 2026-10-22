@@ -1,0 +1,304 @@
+{
+  "entries": [
+    {
+      "id": "M01",
+      "file": "assets/mascots/M01.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1971622,
+      "sha256": "d3b8190e04eeb80fea57252bf80a58432330e7e8253d2953834e261f759d7d90"
+    },
+    {
+      "id": "M02",
+      "file": "assets/mascots/M02.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1907574,
+      "sha256": "2f75f9f1dbbb930080be2a8e12d56973dd5eca022cf7399a06704247c7b02e0b"
+    },
+    {
+      "id": "M03",
+      "file": "assets/mascots/M03.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1843579,
+      "sha256": "464ed44dfb21bc46210f122fc7e18ee18a92528997c92d000ea059eae8686d65"
+    },
+    {
+      "id": "M04",
+      "file": "assets/mascots/M04.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2012770,
+      "sha256": "b5ef948085df79f9a01c5b4938c742bad492a3a69078bdf6c1d4c9198da48493"
+    },
+    {
+      "id": "M05",
+      "file": "assets/mascots/M05.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2015631,
+      "sha256": "dbd9956cfd9cfa5bd795dc52b3b170af0e9950907d81b2c9b6b95cc81e95529e"
+    },
+    {
+      "id": "M06",
+      "file": "assets/mascots/M06.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1793780,
+      "sha256": "3e5e711a7c5b471699ab709b5175b363a27f03aaf314e59ca1041ceb123bca47"
+    },
+    {
+      "id": "M07",
+      "file": "assets/mascots/M07.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2042020,
+      "sha256": "e910d7581b8dee550769a25ae2b7f51a5d77f5d50b6223bfeb1666a5f22627c3"
+    },
+    {
+      "id": "M08",
+      "file": "assets/mascots/M08.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1956202,
+      "sha256": "6e244f6a2b036803bb5a6217ea457df13622198438cbf03446a6242dcbd87e4f"
+    },
+    {
+      "id": "M09",
+      "file": "assets/mascots/M09.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2029287,
+      "sha256": "cb9f6ff2c9b50d358bb3cf6b675141d3cc6c509d6020877ce956cfb0fdcc1dc2"
+    },
+    {
+      "id": "M10",
+      "file": "assets/mascots/M10.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2076831,
+      "sha256": "437cb959eb146cda106c95a0889e00dd719b4724f7d3a02d57d1bd76bc52fcf8"
+    },
+    {
+      "id": "C01",
+      "file": "assets/custom-example/C01.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2142375,
+      "sha256": "d9168dc0262ea6bc0d9410b00c64d4e12e2195859e7503b74d9123b7468f213d"
+    },
+    {
+      "id": "S01",
+      "file": "assets/styles/S01.png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 3477317,
+      "sha256": "fde5ecdcb0c30425e5aad9b27ee957b50b06829d6f9481ef64858d37de7ee21a",
+      "example_mascot": "M07",
+      "logoFrame": {
+        "x": 68,
+        "y": 56,
+        "width": 214,
+        "height": 37.99142367066895
+      },
+      "giftElement": false
+    },
+    {
+      "id": "S02",
+      "file": "assets/styles/S02.png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 3378857,
+      "sha256": "54ddc6e672822d4a1c65a251d692205b6ecf487fdd576be0bcb2f922c1c2fdbb",
+      "example_mascot": "M09",
+      "logoFrame": {
+        "x": 68,
+        "y": 56,
+        "width": 214,
+        "height": 37.99142367066895
+      },
+      "giftElement": false
+    },
+    {
+      "id": "S03",
+      "file": "assets/styles/S03.png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 3687767,
+      "sha256": "56c4f5c11e4aeacf6e55bb6a860434a87c1e11fcaf594e4baa3f45d2bef426d8",
+      "example_mascot": "M04",
+      "logoFrame": {
+        "x": 68,
+        "y": 56,
+        "width": 214,
+        "height": 37.99142367066895
+      },
+      "giftElement": false
+    },
+    {
+      "id": "S04",
+      "file": "assets/styles/S04.png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 3690170,
+      "sha256": "c9b9abb795aa313425f5a7f2e14d5f4c055105dfc607a9eb93a15a1247a1e629",
+      "example_mascot": "M10",
+      "logoFrame": {
+        "x": 68,
+        "y": 56,
+        "width": 214,
+        "height": 37.99142367066895
+      },
+      "giftElement": false
+    },
+    {
+      "id": "S05",
+      "file": "assets/styles/S05.png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 3138861,
+      "sha256": "702fc1f02706df94aae086d850cbadfb6e2c1c476c965d03ba19619008f66e92",
+      "example_mascot": "C01",
+      "logoFrame": {
+        "x": 68,
+        "y": 56,
+        "width": 214,
+        "height": 37.99142367066895
+      },
+      "giftElement": false
+    },
+    {
+      "id": "S06",
+      "file": "assets/styles/S06.png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 3015300,
+      "sha256": "d8c851ddcbe40cc600a1be87d0f7b2e476c0f165e1bdd952121b48e7b13a43d5",
+      "example_mascot": "M08",
+      "logoFrame": {
+        "x": 68,
+        "y": 56,
+        "width": 214,
+        "height": 37.99142367066895
+      },
+      "giftElement": false
+    },
+    {
+      "id": "S07",
+      "file": "assets/styles/S07.png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 3852353,
+      "sha256": "9b73fdea3661d20e40bc9b7e19532fc380eaf5f0cdd1d82479ca51a2b832e8b8",
+      "example_mascot": "M03",
+      "logoFrame": {
+        "x": 68,
+        "y": 56,
+        "width": 214,
+        "height": 37.99142367066895
+      },
+      "giftElement": false
+    },
+    {
+      "id": "S08",
+      "file": "assets/styles/S08.png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 2703660,
+      "sha256": "b69d1096e8b1b383f266aa429f56e5616eb4d15598395f0d33f96201ec44c930",
+      "example_mascot": "M02",
+      "logoFrame": {
+        "x": 68,
+        "y": 56,
+        "width": 214,
+        "height": 37.99142367066895
+      },
+      "giftElement": false
+    },
+    {
+      "id": "S09",
+      "file": "assets/styles/S09.png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 4182040,
+      "sha256": "26e72d8bb59c52665651da9b891ce277dc556db72041531afc4e886beaceedb6",
+      "example_mascot": "M06",
+      "logoFrame": {
+        "x": 68,
+        "y": 56,
+        "width": 214,
+        "height": 37.99142367066895
+      },
+      "giftElement": false
+    },
+    {
+      "id": "S10",
+      "file": "assets/styles/S10.png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 3206446,
+      "sha256": "9eecb266b0aa719af7589a4540d1f000cb882b246ee359207d37098b602682b1",
+      "example_mascot": "M05",
+      "logoFrame": {
+        "x": 68,
+        "y": 56,
+        "width": 214,
+        "height": 37.99142367066895
+      },
+      "giftElement": false
+    },
+    {
+      "id": "S11",
+      "file": "assets/styles/S11.png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 3716030,
+      "sha256": "7b4957fdda26ffc05d3122b6b574857ff2bfd041b6d3065f54498a6710543fdb",
+      "example_mascot": "M01",
+      "logoFrame": {
+        "x": 68,
+        "y": 56,
+        "width": 214,
+        "height": 37.99142367066895
+      },
+      "giftElement": false
+    }
+  ],
+  "historyImages": 0,
+  "historyAliases": 0,
+  "historyVersions": 0,
+  "logoSha256": "17afeb8fbdf0f3ecb612a28398be679264652129659c06a6cd73e412d56acee4",
+  "galleryEntries": [
+    {
+      "file": "assets/galleries/styles-01.png",
+      "sha256": "372bfde237a3d40bc796f63c61b14efd5b70f93f4c388dd612a034f5e298e480",
+      "bytes": 2738166
+    },
+    {
+      "file": "assets/galleries/styles-02.png",
+      "sha256": "3560fd0787f4a9f8a3e5e21f9461c7ae190872d261a15e87e93761cca0c4f080",
+      "bytes": 2378132
+    },
+    {
+      "file": "assets/galleries/mascots.png",
+      "sha256": "2732bce7acc4742a3538062ba83323e6e355fa6e718d40e716581d38d5512b0a",
+      "bytes": 1423911
+    },
+    {
+      "file": "assets/galleries/styles-all.png",
+      "sha256": "79ded96d2eb5228a1a7b8cd8675838e2930fadb7026c6ccdc3c8d534bc708c49",
+      "bytes": 2828124
+    },
+    {
+      "file": "assets/brand/ai798Lab-original.png",
+      "sha256": "17afeb8fbdf0f3ecb612a28398be679264652129659c06a6cd73e412d56acee4",
+      "bytes": 78748
+    }
+  ],
+  "templatePolicy": {
+    "defaultGift": null,
+    "inheritCampaignText": false,
+    "currentSamplesHaveGift": false
+  }
+}

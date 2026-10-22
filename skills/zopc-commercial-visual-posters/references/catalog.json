@@ -1,0 +1,276 @@
+{
+  "version": "1.0.0",
+  "display_name": "ZOPC商用运营视觉海报",
+  "created": "2026-10-22",
+  "galleries": {
+    "mascots": "assets/galleries/mascots.png",
+    "styles": [
+      "assets/galleries/styles-01.png",
+      "assets/galleries/styles-02.png"
+    ],
+    "overview": "assets/galleries/styles-all.png"
+  },
+  "mascots": [
+    {
+      "id": "M01",
+      "name": "橙色柴犬",
+      "en": "Orange Shiba",
+      "identity": "A clearly identifiable Japanese Shiba Inu: orange short dense fur, broad round cheeks, cream-white urajiro muzzle and chest, small triangular upright ears, compact muzzle, black nose and a curled tail. Not a fox: no narrow pointed elongated snout, no oversized thin fox ears.",
+      "features": "橙色短毛、奶油色口鼻、立耳、卷尾",
+      "reference": "assets/mascots/M01.png"
+    },
+    {
+      "id": "M02",
+      "name": "熊猫",
+      "en": "Panda",
+      "identity": "An unmistakable giant panda: round black ears, white rounded face, separated black oval eye patches, black arms and legs, compact plump body. No pointed dog ears or dog snout.",
+      "features": "黑白眼斑、圆耳、圆润体形",
+      "reference": "assets/mascots/M02.png"
+    },
+    {
+      "id": "M03",
+      "name": "机器人",
+      "en": "Robot",
+      "identity": "An original friendly robot: rounded rectangular pearl-white ceramic head, smoked dark face panel with expressive small cyan LED eyes, small side circular mechanical ears, compact charcoal jointed limbs with visible believable hinges. No fur, no animal ears. Purple translucent visor as the family eyewear detail.",
+      "features": "陶瓷外壳、圆角面屏、青色眼灯",
+      "reference": "assets/mascots/M03.png"
+    },
+    {
+      "id": "M04",
+      "name": "柯基",
+      "en": "Corgi",
+      "identity": "An unmistakable Welsh corgi: orange-tan and white fur, very large upright rounded-triangle ears, short sturdy legs, elongated compact torso, white center forehead blaze, blunt friendly muzzle. Not a generic Shiba or fox.",
+      "features": "大立耳、白额线、短腿长身",
+      "reference": "assets/mascots/M04.png"
+    },
+    {
+      "id": "M05",
+      "name": "奶牛猫",
+      "en": "Tuxedo Cat",
+      "identity": "An unmistakable original black-and-white tuxedo cat: black small triangular ears, white muzzle and central nose blaze, black fur cap and back, white paws, round feline whisker pads and short subtle whiskers, a curved long feline tail. No dog snout.",
+      "features": "黑白花色、猫胡须、长尾",
+      "reference": "assets/mascots/M05.png"
+    },
+    {
+      "id": "M06",
+      "name": "兔子",
+      "en": "Rabbit",
+      "identity": "An unmistakable soft warm-white rabbit: two tall upright long ears with pale peach inner ears, a small split rabbit upper lip and tiny pink nose, rounded cheeks, short arms and oversized rabbit feet, small cotton tail. No dog muzzle.",
+      "features": "白绒长耳、粉鼻、棉球尾",
+      "reference": "assets/mascots/M06.png"
+    },
+    {
+      "id": "M07",
+      "name": "棕熊",
+      "en": "Brown Bear",
+      "identity": "An unmistakable warm caramel-brown bear: two round ears, broad short taupe muzzle, compact black nose, stocky body and round paws, soft dense short plush fur. No canine triangular ears or panda eye patches.",
+      "features": "圆耳、短宽口鼻、厚实熊掌",
+      "reference": "assets/mascots/M07.png"
+    },
+    {
+      "id": "M08",
+      "name": "企鹅",
+      "en": "Penguin",
+      "identity": "An unmistakable original small penguin: black velvety feathers, white rounded face and belly, short small orange beak, orange webbed feet, two short flipper arms. No animal ears, no fur muzzle, no hands with fingers.",
+      "features": "黑白羽绒、短橙喙、蹼足",
+      "reference": "assets/mascots/M08.png"
+    },
+    {
+      "id": "M09",
+      "name": "水獭",
+      "en": "Otter",
+      "identity": "An unmistakable river otter: chocolate-brown sleek velvety fur, broad cream-tan muzzle and cheek patches, tiny round ears low on head, black nose, subtle whiskers, long thick tapering otter tail, rounded short paws. No dog pointy ears.",
+      "features": "贴头圆耳、奶咖口鼻、粗长尾",
+      "reference": "assets/mascots/M09.png"
+    },
+    {
+      "id": "M10",
+      "name": "小恐龙",
+      "en": "Dinosaur",
+      "identity": "An original mint-teal friendly baby tyrannosaur designer toy: broad rounded dinosaur snout, round nostrils, small simple dorsal plates on head/back, short two-clawed arms, sturdy dinosaur feet and a thick tail. Fine matte soft-vinyl skin, no fur, no wings or horns, not a dragon.",
+      "features": "薄荷绿、圆钝龙嘴、背脊、粗尾",
+      "reference": "assets/mascots/M10.png"
+    }
+  ],
+  "custom_example": {
+    "id": "C01",
+    "name": "自定义小象示范",
+    "en": "Custom Elephant",
+    "identity": "Light slate-gray original elephant, big fan-shaped ears, short curled trunk, tiny tusks, natural round feet; same violet glasses, charcoal/orange streetwear and tactile designer-toy family.",
+    "features": "原创小象：大耳、短卷鼻、灰色软胶",
+    "reference": "assets/custom-example/C01.png",
+    "preset": false
+  },
+  "styles": [
+    {
+      "id": "S01",
+      "name": "星光开盒",
+      "summary": "深蓝金色开盒，立体年卡，克制奢华衬线标题",
+      "reference": "assets/styles/S01.png",
+      "use_cases": [
+        "活动主视觉",
+        "商品宣传",
+        "课程招募",
+        "直播预告"
+      ],
+      "mascot_adaptable": true,
+      "example_mascot": "M07"
+    },
+    {
+      "id": "S02",
+      "name": "年度通行证",
+      "summary": "白绿明亮空间，手持通行证，粗黑大字",
+      "reference": "assets/styles/S02.png",
+      "use_cases": [
+        "活动主视觉",
+        "商品宣传",
+        "课程招募",
+        "直播预告"
+      ],
+      "mascot_adaptable": true,
+      "example_mascot": "M09"
+    },
+    {
+      "id": "S03",
+      "name": "暖光开门",
+      "summary": "深蓝与暖金，开门故事，柔和大字",
+      "reference": "assets/styles/S03.png",
+      "use_cases": [
+        "活动主视觉",
+        "商品宣传",
+        "课程招募",
+        "直播预告"
+      ],
+      "mascot_adaptable": true,
+      "example_mascot": "M04"
+    },
+    {
+      "id": "S04",
+      "name": "巨型字雕",
+      "summary": "朱红蓝金，巨型AI字雕，立体促销排版",
+      "reference": "assets/styles/S04.png",
+      "use_cases": [
+        "活动主视觉",
+        "商品宣传",
+        "课程招募",
+        "直播预告"
+      ],
+      "mascot_adaptable": true,
+      "example_mascot": "M10"
+    },
+    {
+      "id": "S05",
+      "name": "银色旗舰",
+      "summary": "黑银荧光绿，金属卡片，硬朗标题",
+      "reference": "assets/styles/S05.png",
+      "use_cases": [
+        "活动主视觉",
+        "商品宣传",
+        "课程招募",
+        "直播预告"
+      ],
+      "mascot_adaptable": true,
+      "example_mascot": "C01"
+    },
+    {
+      "id": "S06",
+      "name": "Builder工作台",
+      "summary": "蓝橙工作台，项目场景，清楚粗标题",
+      "reference": "assets/styles/S06.png",
+      "use_cases": [
+        "活动主视觉",
+        "商品宣传",
+        "课程招募",
+        "直播预告"
+      ],
+      "mascot_adaptable": true,
+      "example_mascot": "M08"
+    },
+    {
+      "id": "S07",
+      "name": "宇宙巨物",
+      "summary": "深空蓝青，巨型发光卡，速度感立体字",
+      "reference": "assets/styles/S07.png",
+      "use_cases": [
+        "活动主视觉",
+        "商品宣传",
+        "课程招募",
+        "直播预告"
+      ],
+      "mascot_adaptable": true,
+      "example_mascot": "M03"
+    },
+    {
+      "id": "S08",
+      "name": "红黑潮玩",
+      "summary": "红黑特写，巨型窄字，白色毛笔字",
+      "reference": "assets/styles/S08.png",
+      "use_cases": [
+        "活动主视觉",
+        "商品宣传",
+        "课程招募",
+        "直播预告"
+      ],
+      "mascot_adaptable": true,
+      "example_mascot": "M02"
+    },
+    {
+      "id": "S09",
+      "name": "蓝紫星轨",
+      "summary": "蓝紫星空，卡片环绕，发光艺术字",
+      "reference": "assets/styles/S09.png",
+      "use_cases": [
+        "活动主视觉",
+        "商品宣传",
+        "课程招募",
+        "直播预告"
+      ],
+      "mascot_adaptable": true,
+      "example_mascot": "M06"
+    },
+    {
+      "id": "S10",
+      "name": "蓝白毛绒",
+      "summary": "纯蓝白字，毛绒特写，亲和手写辅字",
+      "reference": "assets/styles/S10.png",
+      "use_cases": [
+        "活动主视觉",
+        "商品宣传",
+        "课程招募",
+        "直播预告"
+      ],
+      "mascot_adaptable": true,
+      "example_mascot": "M05"
+    },
+    {
+      "id": "S11",
+      "name": "紫色聚光舞台",
+      "summary": "紫色聚光，站姿角色，刷字与水晶材质",
+      "reference": "assets/styles/S11.png",
+      "use_cases": [
+        "活动主视觉",
+        "商品宣传",
+        "课程招募",
+        "直播预告"
+      ],
+      "mascot_adaptable": true,
+      "example_mascot": "M01"
+    }
+  ],
+  "brand": {
+    "file": "assets/brand/ai798Lab-original.png",
+    "demoOnly": true
+  },
+  "examplesAreDemoOnly": true,
+  "historyIndex": "assets/history/index.json",
+  "templatePolicy": {
+    "defaultGift": null,
+    "inheritCampaignText": false,
+    "currentSamplesHaveGift": false
+  },
+  "distribution": {
+    "visibility": "public",
+    "scope": "current-only",
+    "historyIncluded": false
+  }
+}

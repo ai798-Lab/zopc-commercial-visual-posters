@@ -1,0 +1,4 @@
+interface:
+  display_name: "ZOPC商用运营视觉海报"
+  short_description: "选择潮玩吉祥物与编号样式，制作活动海报并按需延展整套运营物料"
+  default_prompt: "使用 $zopc-commercial-visual-posters 制作运营海报，先让我选择视觉形象，再展示带编号的样式示例。"
