@@ -1,30 +1,41 @@
 # 维护与展示说明
 
-[返回首页](../README.md)
+[返回首页](../README.md) · [仓库展示调研](REPOSITORY-DESIGN.md) · [贡献指南](../CONTRIBUTING.md)
 
-## 仓库组织
+## 目录与信息层次
 
-- 首页按“总览 → 单张视觉 → 安装与使用”组织，回应本次五项交付要求。
-- 单张预览采用压缩 JPEG，每张链接到完整 PNG；公开仓库只含新版素材，不包含历史原稿。
-- 公开版从不含历史原稿和旧Git对象的全新目录建立，避免旧图进入提交历史。\n- 使用相对路径，不绑定维护者电脑。生成底稿、聊天记录、本地配置和临时验收路径不进入仓库。
-- 以中文使用者为主，不另造无人维护的翻译、徽章或社区模板；未替所有者选择开源许可证。
+- 首页按“品牌与入口 → 价值 → 安装与使用 → 视觉样式库 → 文档与维护”组织。
+- 中文 README 面向主要使用者，英文 README 与英文安装说明同步维护。图内文字与 Skill 指令仍以中文为主。
+- 单图以压缩 JPEG 展示，点击打开完整 PNG。总览直接显示，单图图册可展开。
+- 公开仓库只含新版素材。历史原稿、旧 Git 对象、制作记录、私聊与本地配置不进入仓库。
+- 包内脚本负责目录、素材和信息检查；生成图片依赖客户端图片能力。
 
-## 参考过的仓库模式
+## 更新素材
 
-| 第一方参考 | 可沿用的模式 | 本仓库的处理 |
-| --- | --- | --- |
-| [openai/skills](https://github.com/openai/skills) | 用途之后给明确安装入口 | 用真实目录URL调用安装器，不广告不存在的软件包 |
-| [anthropics/skills](https://github.com/anthropics/skills) | Skill独立目录、区分工作流和客户端能力 | 完整Skill放入skills子目录；不承诺所有客户端都能生成图片 |
-| [obra/superpowers](https://github.com/obra/superpowers) | 解释工作流与实际安装方式 | 展示形象→样式→信息→成图→延展，并说明已核对的Codex入口 |
+1. 保持稳定编号：M01–M10 为预设，C01 为自定义示范，S01–S11 为样式。
+2. 替换原图时同步 Skill 内 `references/asset-manifest.json` 的尺寸、大小与 SHA-256；映射变动同步 `references/catalog.json`。
+3. 更新 `docs/previews/` 单图、总览与图册文档，避免小图与原图版本不一致。
+4. 同步中英文 README 中的数量、安装与能力边界。新增字段同时核对 Skill 提示与校验。
+5. 价格、日期、二维码、赠品与授权以当次资料为准，不把样张当作新活动事实。
 
-以上仓库的品牌、徽章与许可未复制为本项目内容。视觉示例使用本项目真实生成的海报和形象。
+## 品牌图
 
-## 更新后检查
+`docs/brand/hero.svg` 与 `social-preview.svg` 是可编辑排版源，引用本仓库实际素材。修改后先将相对图片嵌入渲染器输入，再导出同名 JPEG；JPEG 是 GitHub 实际使用的文件。
+
+首图为 1600×800；分享预览为 1280×640，小于 1 MB。导出后检查字体、图片、间距与裁切；SVG 改动后必须重新导出 JPEG。分享预览还需要到 GitHub Settings 单独上传，提交文件不代表该设置已生效。
+
+## 检查与发布
 
 ```bash
-python3 skills/zopc-commercial-visual-posters/scripts/verify_assets.py
+python3 scripts/check_repository.py
 ```
 
-替换原图时同步更新 `references/asset-manifest.json` 中的尺寸、大小和指纹；替换样式与角色映射时同步更新 `references/catalog.json` 和预览图。新增输入字段时核对 `scripts/poster_brief.py` 的提示词与校验，避免继承旧活动事实。
+该命令调用 Skill 原有校验，并检查文档链接、双语入口、公开范围、品牌图和意外私人路径，无需第三方 Python 包。GitHub Actions 使用 Python 3.11 和 3.13 运行同样检查，权限只读。
 
-发布前检查README、安装说明与单图页的图片链接。图像能解码只证明文件完整，还需要看实际成图和GitHub渲染。
+自动检查不验证外部网站长期可用性、图片中文字、二维码可扫性、客户端出图或授权。提交前运行 `git diff --check` 并审查差异；发布后检查 GitHub 实际页面和 Actions。
+
+## 反馈与权限
+
+Issue 表单使用已有 `bug`、`enhancement` 标签，不承诺未建立的响应时限。提交前去除个人、客户与未公开数据。
+
+许可证尚未指定，见 [使用与授权说明](USAGE-RIGHTS.md)。安全渠道与脱敏要求见 [使用帮助](SUPPORT.md)；不为仓库评分补造授权、邮箱或服务承诺。

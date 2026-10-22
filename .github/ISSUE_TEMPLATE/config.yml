@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 安装与使用帮助 / Installation and support
+    url: https://github.com/ai798-Lab/zopc-commercial-visual-posters/blob/main/docs/SUPPORT.md
+    about: 先查看常见问题。请勿在公开 Issue 中提交密钥、私人或客户资料。

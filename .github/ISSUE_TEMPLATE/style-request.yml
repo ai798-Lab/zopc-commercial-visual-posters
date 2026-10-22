@@ -1,0 +1,37 @@
+name: 样式与体验建议 / Style or workflow suggestion
+description: 提出使用场景、形象、海报或文档方面的改进
+title: "[Idea] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 想解决什么问题 / What problem should this solve?
+      description: 先说明真实使用场景和目前的困难
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: 相关部分 / Area
+      options:
+        - 吉祥物 / Mascots
+        - 海报样式 / Poster styles
+        - 制作与延展流程 / Workflow and extensions
+        - 安装与文档 / Installation and documentation
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 建议与参考 / Suggested improvement
+      description: 可附编号与可公开参考链接；不要上传客户或私人资料
+    validations:
+      required: true
+  - type: checkboxes
+    id: public-material
+    attributes:
+      label: 公开内容检查 / Public-content check
+      options:
+        - label: 所有内容均可公开，且未包含密钥或私人资料 / All included material is safe to publish
+          required: true

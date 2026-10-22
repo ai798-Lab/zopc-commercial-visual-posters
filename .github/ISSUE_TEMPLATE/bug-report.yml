@@ -1,0 +1,45 @@
+name: 问题反馈 / Bug report
+description: 安装、素材、文档或实际使用中的问题
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "请勿提交密码、Token、客户信息、未公开活动或未经授权的图片。Do not include secrets or private material."
+  - type: input
+    id: environment
+    attributes:
+      label: 使用环境 / Environment
+      description: 客户端、版本、操作系统，以及仓库提交或下载日期
+      placeholder: Codex；版本…；macOS…；下载日期…
+    validations:
+      required: true
+  - type: input
+    id: selection
+    attributes:
+      label: 形象与样式编号 / Mascot and style IDs
+      description: 不涉及图片时可以填“无 / N/A”
+      placeholder: M03 + S08
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 操作步骤 / Steps to reproduce
+      description: 从安装或调用开始说明；提供脱敏后的请求与报错即可
+    validations:
+      required: true
+  - type: textarea
+    id: expected-actual
+    attributes:
+      label: 预期与实际结果 / Expected and actual result
+      description: 如附截图，请先确认可以公开
+    validations:
+      required: true
+  - type: checkboxes
+    id: public-material
+    attributes:
+      label: 公开内容检查 / Public-content check
+      options:
+        - label: 已去除密钥、私人资料和未经授权的内容 / No secrets or private material included
+          required: true
